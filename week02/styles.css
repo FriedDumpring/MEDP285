@@ -1,0 +1,34 @@
+body {
+	background-color: lightgrey;
+	color: #F00;
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	font-size: 33px;
+	font-weight: 300;
+	text-align: center;
+	padding: 100px;
+}
+
+main {
+	background-color: blue;
+}
+
+main a {
+	color:green; text-decoration: none;
+}
+main a:hover {
+	color: red;
+}
+
+img.manul {
+	width: 400px;
+img.tuxedo {
+	width: 600px;
+}
+
+footer {
+	background-color: green;
+}
+	footer h1 {
+		font-size: 13px;
+	}
+	
