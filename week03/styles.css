@@ -1,0 +1,53 @@
+/*<uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+body{
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 25px;
+  font-weight: <600>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+
+ background-image: url("images/bol2.jpg");
+ /*background-repeat: no-repeat;*/
+ background-attachment: fixed;
+ background-size: 200px;
+	#wrapper{
+ 	 background-color:lightgray;
+ 	 padding: 10px;
+ 	 margin: 200px;
+ 	 border: solid 10px gray;
+	}
+}
+
+p span.scream {
+color: #red;
+}
+
+nav {
+ background-color: darkgray;
+ padding: 10px 40px 10px 40px;
+ margin: 5px;
+ text-align: center;
+}
+
+nav a {
+ text-decoration: none;
+ color:black;
+}
+
+nav a:hover{
+	color:red
+}
+
+img.manul {
+	height: auto;
+	width: 300px;
+}
+img.tuxedo {
+	height: 300px;
+	width: auto;
+}
